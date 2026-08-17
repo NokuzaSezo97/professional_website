@@ -9,13 +9,13 @@ hide:
 
 <div class="grid cards" markdown>
 
--   <img src="../../pictures/YUlogo.png" width="100%">
+-   <img src="/pictures/YUlogo.png" width="100%">
 
     ### **Bachelor of Science (Honour) Geology**
     <p>Location: Yangon, Myanmar</p>
     <p>Placed sixth in order of merit in Honours First Class.</p>
 
--   <img src="../../pictures/AIT_logo.png" width="100%">
+-   <img src="/pictures/AIT_logo.png" width="100%">
 
     ### **Asian Institute of Technology**
 
