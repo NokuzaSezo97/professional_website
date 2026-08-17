@@ -14,7 +14,7 @@ hide:
 ---
 <div style="text-align: justify; gap: 20px; ">
   
-  <img src="../pictures/PyAEZ.png" width="100%">
+  <img src="../../pictures/PyAEZ.png" width="100%">
 
   <div>
     <p>

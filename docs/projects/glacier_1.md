@@ -11,7 +11,7 @@ hide:
     - toc
 ---
 
-<img src="../pictures/glacier_background.png" width="100%">
+<img src="../../pictures/glacier_background.png" width="100%">
 
 <div style="text-align: justify; gap: 20px;">
   
