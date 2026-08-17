@@ -7,8 +7,28 @@ hide:
 
 <!-- ![Swun](pictures/11_Swun-1-scaled.jpg){align = left} Hi!!! Welcome to my professional channel. From here, you can check out my professional activities, achievements and blogs. I'm a remote sensing expert, and I worked in agricultural, environmental, glaciology fields. Check out my professional email/ linkedin to contact for any work-related stuff. Enjoy!!! -->
 
+<style>
+.profile-image {
+  width: 400px;
+  max-width: 45%;
+  height: auto;
+  float: left;
+  margin: 0 30px 15px 0;
+}
+
+@media (max-width: 768px) {
+  .profile-image {
+    width: 100%;
+    max-width: 100%;
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+}
+</style>
+
 <img src="pictures/where_i_live.png"
-     style="width: 350px; float: left; margin: 0 30px 15px 0;"
+     class="profile-image"
      alt="Where I live">
 
 <h3>Hi!!! 👋</h3>
@@ -32,7 +52,6 @@ hide:
 </p>
 
 <div style="clear: both;"></div>
-
 **Main Highlights**
 
 <div class="grid cards" markdown>
