@@ -1,0 +1,68 @@
+site_name: SWH Website
+site_description: A archive site with updated professional information and work experiences
+site_author: Swun Wunna Htet
+site_url: https://swunnah.com/
+nav:
+  - Home: index.md
+  - Projects:
+    - Python-based Open-Source Package for Agro-ecological Zonation (PyAEZ): ./projects/pyaez_1.md
+    - FAO Afghanistan Glacier Inventory Project : ./projects/glacier_1.md
+  - Education : ./Education.md
+  - Contact me: ./contact.md
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.sections
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark Mode
+      primary: deep orange
+      accent: deep purple
+
+    # Light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night 
+        name: Light Mode
+      primary: blue
+      accent: deep orange
+
+plugins:
+  - search
+  - blog:
+      blog_dir: .
+      archive_date_format: MM/yyyy
+      archive_url_date_format: MM/yyyy
+      categories_allowed: [Professional Work, Research]
+      post_url_format: "{slug}"
+  - tags
+
+  
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/NokuzaSezo97
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/swunwunna101234
+    - icon: fontawesome/brands/orcid
+      link: https://orcid.org/0000-0001-5631-0049
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+
+extra_javascript:
+  - javascripts/copy-email.js
+
+copyright: Copyright &copy; 2026 Swun Wunna Htet
