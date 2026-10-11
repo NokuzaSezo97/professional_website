@@ -9,13 +9,13 @@ hide:
 
 <div class="grid cards" markdown>
 
--   <img src="pictures/YUlogo.png" width="100%">
+-   ![University of Yangon logo](pictures/YUlogo.png)
 
     ### **Bachelor of Science (Honour) Geology**
     <p>Location: Yangon, Myanmar</p>
     <p>Placed sixth in order of merit in Honours First Class.</p>
 
--   <img src="pictures/AIT_logo.png" width="100%">
+-   ![AIT logo](pictures/AIT_logo.png)
 
     ### **Asian Institute of Technology**
 
